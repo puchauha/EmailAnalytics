@@ -1,0 +1,19 @@
+Subject: Outage Summary - Oceanic Cargo (Unplanned) - 2020-01-06
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **Oceanic Cargo**.
+
+**Type of Outage:** Unplanned  
+**Details of the Issue:** Unexpected storage failure  
+**Current Status:** Resolved  
+**Business Impact:** No business impact observed.  
+**Manual Order Processing:** Required  
+**Root Cause (for unplanned outage):** Not Available  
+**Outage Start Time:** 2020-01-06 13:51 PST  
+**Outage End Time:** 2020-01-06 18:51 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

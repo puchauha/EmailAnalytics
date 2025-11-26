@@ -1,0 +1,19 @@
+Subject: Outage Summary - SwiftHaul (Unplanned) - 2025-11-23
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **SwiftHaul**.
+
+**Type of Outage:** Unplanned  
+**Details of the Issue:** Firewall misconfiguration  
+**Current Status:** Resolved  
+**Business Impact:** No business impact observed.  
+**Manual Order Processing:** Required  
+**Root Cause (for unplanned outage):** Available  
+**Outage Start Time:** 2025-11-23 22:53 PST  
+**Outage End Time:** 2025-11-24 02:53 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

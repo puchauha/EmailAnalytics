@@ -1,0 +1,19 @@
+Subject: Outage Summary - SkyTrack Freight (Unplanned) - 2022-12-02
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **SkyTrack Freight**.
+
+**Type of Outage:** Unplanned  
+**Details of the Issue:** Firewall misconfiguration  
+**Current Status:** Resolved  
+**Business Impact:** Limited impact on order acknowledgments.  
+**Manual Order Processing:** Not Required  
+**Root Cause (for unplanned outage):** Not Available  
+**Outage Start Time:** 2022-12-02 00:23 PST  
+**Outage End Time:** 2022-12-02 06:23 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

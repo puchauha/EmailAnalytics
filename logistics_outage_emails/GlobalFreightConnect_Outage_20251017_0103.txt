@@ -1,0 +1,16 @@
+Subject: Outage Notification – Network latency impacting edi flow
+From: GlobalFreight Connect <support@globalfreightconnect.com>
+To: B2B Operations <b2bops@yourorg.com>
+Date: 2025-10-17 01:03 IST
+
+Dear Partner,
+
+Please be informed that we are currently experiencing a Network latency impacting EDI flow affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.
+
+Outage Start Time: 2025-10-17 01:03 IST
+Estimated Resolution: Under investigation
+
+We will notify you once services are fully restored.
+
+Kind regards,
+GlobalFreight Connect Technical Operations Team

@@ -1,0 +1,16 @@
+Subject: Outage Notification – Unexpected power failure in data center
+From: BlueRoute Express <support@bluerouteexpress.com>
+To: B2B Operations <b2bops@yourorg.com>
+Date: 2025-10-10 02:23 IST
+
+Dear Partner,
+
+Please be informed that we are currently experiencing a Unexpected power failure in data center affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.
+
+Outage Start Time: 2025-10-10 02:23 IST
+Estimated Resolution: Under investigation
+
+We will notify you once services are fully restored.
+
+Kind regards,
+BlueRoute Express Technical Operations Team

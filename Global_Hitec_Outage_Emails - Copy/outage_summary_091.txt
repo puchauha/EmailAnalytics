@@ -1,0 +1,19 @@
+Subject: Outage Summary - BlueRoute Logistics (Unplanned) - 2024-03-11
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **BlueRoute Logistics**.
+
+**Type of Outage:** Unplanned  
+**Details of the Issue:** Power outage at data center  
+**Current Status:** Resolved  
+**Business Impact:** Order processing impacted. Premium(20), Regular(10).  
+**Manual Order Processing:** Not Required  
+**Root Cause (for unplanned outage):** Available  
+**Outage Start Time:** 2024-03-11 08:53 PST  
+**Outage End Time:** 2024-03-11 15:53 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

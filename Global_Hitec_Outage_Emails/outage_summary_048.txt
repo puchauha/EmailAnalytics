@@ -1,0 +1,19 @@
+Subject: Outage Summary - Oceanic Cargo (Unplanned) - 2022-12-18
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **Oceanic Cargo**.
+
+**Type of Outage:** Unplanned  
+**Details of the Issue:** Application crash  
+**Current Status:** Resolved  
+**Business Impact:** Order processing impacted. Premium(20), Regular(10).  
+**Manual Order Processing:** Required  
+**Root Cause (for unplanned outage):** Available  
+**Outage Start Time:** 2022-12-18 20:21 PST  
+**Outage End Time:** 2022-12-18 22:21 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

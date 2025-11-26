@@ -1,0 +1,19 @@
+Subject: Outage Summary - SkyTrack Freight (Unplanned) - 2025-09-16
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **SkyTrack Freight**.
+
+**Type of Outage:** Unplanned  
+**Details of the Issue:** B2B channel failure  
+**Current Status:** Resolved  
+**Business Impact:** Order processing impacted. Premium(20), Regular(10).  
+**Manual Order Processing:** Required  
+**Root Cause (for unplanned outage):** Available  
+**Outage Start Time:** 2025-09-16 08:49 PST  
+**Outage End Time:** 2025-09-16 10:49 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

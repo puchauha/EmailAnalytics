@@ -1,0 +1,16 @@
+Subject: Outage Notification – Certificate validation failure
+From: OmniCargo Solutions <support@omnicargosolutions.com>
+To: B2B Operations <b2bops@yourorg.com>
+Date: 2025-11-02 03:00 IST
+
+Dear Partner,
+
+Please be informed that we are currently experiencing a Certificate validation failure affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.
+
+Outage Start Time: 2025-11-02 03:00 IST
+Estimated Resolution: Under investigation
+
+We will notify you once services are fully restored.
+
+Kind regards,
+OmniCargo Solutions Technical Operations Team

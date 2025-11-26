@@ -1,0 +1,266 @@
+[
+  {
+    "partner_name": "BlueRoute Express",
+    "outage_date": "2025-10-10",
+    "outage_reason": "Power failure",
+    "impact_summary": "Unexpected power failure in the data center affecting B2B communication with some external systems.",
+    "filename": "BlueRouteExpress_Outage_20251010_0223.txt",
+    "raw_text": "Subject: Outage Notification – Unexpected power failure in data center\nFrom: BlueRoute Express <support@bluerouteexpress.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-10 02:23 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Unexpected power failure in data center affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-10 02:23 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nBlueRoute Express Technical Operations Team\n"
+  },
+  {
+    "partner_name": "BlueRoute Express",
+    "outage_date": "2025-10-12",
+    "outage_reason": "SFTP server down",
+    "impact_summary": "The SFTP server is down, affecting B2B communication with some external systems.",
+    "filename": "BlueRouteExpress_Outage_20251012_1223.txt",
+    "raw_text": "Subject: Outage Notification – Sftp server down\nFrom: BlueRoute Express <support@bluerouteexpress.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-12 12:23 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a SFTP server down affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-12 12:23 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nBlueRoute Express Technical Operations Team\n"
+  },
+  {
+    "partner_name": "BlueRoute Express",
+    "outage_date": "2025-10-13",
+    "outage_reason": "File transmission failure",
+    "impact_summary": "There is a file transmission failure to E2Open affecting B2B communication with some external systems.",
+    "filename": "BlueRouteExpress_Outage_20251013_1826.txt",
+    "raw_text": "Subject: Outage Notification – File transmission failure to e2open\nFrom: BlueRoute Express <support@bluerouteexpress.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-13 18:26 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a File transmission failure to E2Open affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-13 18:26 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nBlueRoute Express Technical Operations Team\n"
+  },
+  {
+    "partner_name": "BlueRoute Express",
+    "outage_date": "2025-10-19",
+    "outage_reason": "Certificate validation failure",
+    "impact_summary": "A Certificate validation failure is affecting B2B communication with some external systems.",
+    "filename": "BlueRouteExpress_Outage_20251019_0542.txt",
+    "raw_text": "Subject: Outage Notification – Certificate validation failure\nFrom: BlueRoute Express <support@bluerouteexpress.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-19 05:42 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Certificate validation failure affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-19 05:42 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nBlueRoute Express Technical Operations Team\n"
+  },
+  {
+    "partner_name": "BlueRoute Express",
+    "outage_date": "2025-10-23",
+    "outage_reason": "File transmission failure",
+    "impact_summary": "There is a file transmission failure to E2Open affecting B2B communication with some external systems.",
+    "filename": "BlueRouteExpress_Outage_20251023_1415.txt",
+    "raw_text": "Subject: Outage Notification – File transmission failure to e2open\nFrom: BlueRoute Express <support@bluerouteexpress.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-23 14:15 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a File transmission failure to E2Open affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-23 14:15 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nBlueRoute Express Technical Operations Team\n"
+  },
+  {
+    "partner_name": "BlueRoute Express",
+    "outage_date": "2025-10-26",
+    "outage_reason": "VPN connectivity issue",
+    "impact_summary": "A VPN connectivity issue is affecting B2B communication with some external systems.",
+    "filename": "BlueRouteExpress_Outage_20251026_1949.txt",
+    "raw_text": "Subject: Outage Notification – Vpn connectivity issue\nFrom: BlueRoute Express <support@bluerouteexpress.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-26 19:49 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a VPN connectivity issue affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-26 19:49 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nBlueRoute Express Technical Operations Team\n"
+  },
+  {
+    "partner_name": "BlueRoute Express",
+    "outage_date": "2025-11-05",
+    "outage_reason": "Power failure",
+    "impact_summary": "Unexpected power failure in the data center affecting B2B communication with external systems.",
+    "filename": "BlueRouteExpress_Outage_20251105_2047.txt",
+    "raw_text": "Subject: Outage Notification – Unexpected power failure in data center\nFrom: BlueRoute Express <support@bluerouteexpress.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-11-05 20:47 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Unexpected power failure in data center affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-11-05 20:47 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nBlueRoute Express Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-13",
+    "outage_reason": "SFTP server down",
+    "impact_summary": "The SFTP server is down, affecting B2B communication with external systems.",
+    "filename": "FastLinkShipping_Outage_20251013_0515.txt",
+    "raw_text": "Subject: Outage Notification – Sftp server down\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-13 05:15 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a SFTP server down affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-13 05:15 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-14",
+    "outage_reason": "SFTP server down",
+    "impact_summary": "The SFTP server is down, affecting B2B communication with external systems.",
+    "filename": "FastLinkShipping_Outage_20251014_0101.txt",
+    "raw_text": "Subject: Outage Notification – Sftp server down\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-14 01:01 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a SFTP server down affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-14 01:01 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-16",
+    "outage_reason": "Firewall issue",
+    "impact_summary": "A firewall is blocking outbound B2B connections, affecting communication with external systems.",
+    "filename": "FastLinkShipping_Outage_20251016_0633.txt",
+    "raw_text": "Subject: Outage Notification – Firewall blocking outbound b2b connections\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-16 06:33 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Firewall blocking outbound B2B connections affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-16 06:33 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-21",
+    "outage_reason": "SFTP server down",
+    "impact_summary": "The SFTP server is down, affecting B2B communication with external systems.",
+    "filename": "FastLinkShipping_Outage_20251021_1632.txt",
+    "raw_text": "Subject: Outage Notification – Sftp server down\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-21 16:32 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a SFTP server down affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-21 16:32 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-25",
+    "outage_reason": "System maintenance window extension",
+    "impact_summary": "B2B communication with some external systems is affected due to an extended maintenance window.",
+    "filename": "FastLinkShipping_Outage_20251025_0910.txt",
+    "raw_text": "Subject: Outage Notification – System maintenance window extension\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-25 09:10 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a System maintenance window extension affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-25 09:10 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-27",
+    "outage_reason": "Message queue congestion",
+    "impact_summary": "B2B communication with some external systems is affected due to message queue congestion.",
+    "filename": "FastLinkShipping_Outage_20251027_0511.txt",
+    "raw_text": "Subject: Outage Notification – Message queue congestion\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-27 05:11 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Message queue congestion affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-27 05:11 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-29",
+    "outage_reason": "Database outage",
+    "impact_summary": "A Database server is unresponsive, affecting B2B communication with some external systems.",
+    "filename": "FastLinkShipping_Outage_20251029_0851.txt",
+    "raw_text": "Subject: Outage Notification – Database server unresponsive\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-29 08:51 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Database server unresponsive affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-29 08:51 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-10-30",
+    "outage_reason": "Database outage",
+    "impact_summary": "The Database server is unresponsive, affecting B2B communication with some external systems.",
+    "filename": "FastLinkShipping_Outage_20251030_0236.txt",
+    "raw_text": "Subject: Outage Notification – Database server unresponsive\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-30 02:36 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Database server unresponsive affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-30 02:36 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-11-03",
+    "outage_reason": "SFTP server down",
+    "impact_summary": "The SFTP server is down, affecting B2B communication with external systems.",
+    "filename": "FastLinkShipping_Outage_20251103_1219.txt",
+    "raw_text": "Subject: Outage Notification – Sftp server down\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-11-03 12:19 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a SFTP server down affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-11-03 12:19 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "FastLink Shipping",
+    "outage_date": "2025-11-03",
+    "outage_reason": "Certificate validation failure",
+    "impact_summary": "A Certificate validation failure is affecting B2B communication with some external systems.",
+    "filename": "FastLinkShipping_Outage_20251103_2226.txt",
+    "raw_text": "Subject: Outage Notification – Certificate validation failure\nFrom: FastLink Shipping <support@fastlinkshipping.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-11-03 22:26 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Certificate validation failure affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-11-03 22:26 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nFastLink Shipping Technical Operations Team\n"
+  },
+  {
+    "partner_name": "GlobalFreight Connect",
+    "outage_date": "2025-10-10",
+    "outage_reason": "Network latency",
+    "impact_summary": "Network latency is impacting EDI flow, affecting B2B communication with some external systems.",
+    "filename": "GlobalFreightConnect_Outage_20251010_0233.txt",
+    "raw_text": "Subject: Outage Notification – Network latency impacting edi flow\nFrom: GlobalFreight Connect <support@globalfreightconnect.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-10 02:33 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Network latency impacting EDI flow affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-10 02:33 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nGlobalFreight Connect Technical Operations Team\n"
+  },
+  {
+    "partner_name": "GlobalFreight Connect",
+    "outage_date": "2025-10-15",
+    "outage_reason": "Power failure",
+    "impact_summary": "Unexpected power failure in the data center affecting B2B communication with some external systems.",
+    "filename": "GlobalFreightConnect_Outage_20251015_1841.txt",
+    "raw_text": "Subject: Outage Notification – Unexpected power failure in data center\nFrom: GlobalFreight Connect <support@globalfreightconnect.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-15 18:41 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Unexpected power failure in data center affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-15 18:41 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nGlobalFreight Connect Technical Operations Team\n"
+  },
+  {
+    "partner_name": "GlobalFreight Connect",
+    "outage_date": "2025-10-17",
+    "outage_reason": "Network latency",
+    "impact_summary": "Network latency is impacting EDI flow, affecting B2B communication with some external systems.",
+    "filename": "GlobalFreightConnect_Outage_20251017_0103.txt",
+    "raw_text": "Subject: Outage Notification – Network latency impacting edi flow\nFrom: GlobalFreight Connect <support@globalfreightconnect.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-17 01:03 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Network latency impacting EDI flow affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-17 01:03 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nGlobalFreight Connect Technical Operations Team\n"
+  },
+  {
+    "partner_name": "GlobalFreight Connect",
+    "outage_date": "2025-10-17",
+    "outage_reason": "File transmission failure",
+    "impact_summary": "There is a file transmission failure to E2Open affecting B2B communication with some external systems.",
+    "filename": "GlobalFreightConnect_Outage_20251017_1321.txt",
+    "raw_text": "Subject: Outage Notification – File transmission failure to e2open\nFrom: GlobalFreight Connect <support@globalfreightconnect.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-17 13:21 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a File transmission failure to E2Open affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-17 13:21 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nGlobalFreight Connect Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-10-11",
+    "outage_reason": "Power failure",
+    "impact_summary": "Unexpected power failure in the data center affecting B2B communication with some external systems.",
+    "filename": "OmniCargoSolutions_Outage_20251011_2359.txt",
+    "raw_text": "Subject: Outage Notification – Unexpected power failure in data center\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-11 23:59 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Unexpected power failure in data center affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-11 23:59 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-10-15",
+    "outage_reason": "Database outage",
+    "impact_summary": "The Database server is unresponsive, affecting B2B communication with some external systems.",
+    "filename": "OmniCargoSolutions_Outage_20251015_1627.txt",
+    "raw_text": "Subject: Outage Notification – Database server unresponsive\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-15 16:27 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Database server unresponsive affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-15 16:27 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-10-18",
+    "outage_reason": "Message queue congestion",
+    "impact_summary": "B2B communication with some external systems is affected due to message queue congestion.",
+    "filename": "OmniCargoSolutions_Outage_20251018_1627.txt",
+    "raw_text": "Subject: Outage Notification – Message queue congestion\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-18 16:27 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Message queue congestion affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-18 16:27 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-10-19",
+    "outage_reason": "Power failure",
+    "impact_summary": "Unexpected power failure in the data center affecting B2B communication with some external systems.",
+    "filename": "OmniCargoSolutions_Outage_20251019_1438.txt",
+    "raw_text": "Subject: Outage Notification – Unexpected power failure in data center\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-19 14:38 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Unexpected power failure in data center affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-19 14:38 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-10-22",
+    "outage_reason": "Certificate validation failure",
+    "impact_summary": "B2B communication with some external systems is affected due to a certificate validation failure.",
+    "filename": "OmniCargoSolutions_Outage_20251022_1046.txt",
+    "raw_text": "Subject: Outage Notification – Certificate validation failure\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-22 10:46 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Certificate validation failure affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-22 10:46 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-10-23",
+    "outage_reason": "Database outage",
+    "impact_summary": "The Database server is unresponsive, affecting B2B communication with some external systems.",
+    "filename": "OmniCargoSolutions_Outage_20251023_0541.txt",
+    "raw_text": "Subject: Outage Notification – Database server unresponsive\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-23 05:41 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Database server unresponsive affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-23 05:41 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-10-26",
+    "outage_reason": "Message queue congestion",
+    "impact_summary": "B2B communication with some external systems is affected due to message queue congestion.",
+    "filename": "OmniCargoSolutions_Outage_20251026_0123.txt",
+    "raw_text": "Subject: Outage Notification – Message queue congestion\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-26 01:23 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Message queue congestion affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-26 01:23 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-11-01",
+    "outage_reason": "Database outage",
+    "impact_summary": "The Database server is unresponsive, affecting B2B communication with some external systems.",
+    "filename": "OmniCargoSolutions_Outage_20251101_0111.txt",
+    "raw_text": "Subject: Outage Notification – Database server unresponsive\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-11-01 01:11 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Database server unresponsive affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-11-01 01:11 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-11-01",
+    "outage_reason": "VPN connectivity issue",
+    "impact_summary": "A VPN connectivity issue is affecting B2B communication with some external systems.",
+    "filename": "OmniCargoSolutions_Outage_20251101_0743.txt",
+    "raw_text": "Subject: Outage Notification – Vpn connectivity issue\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-11-01 07:43 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a VPN connectivity issue affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-11-01 07:43 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "OmniCargo Solutions",
+    "outage_date": "2025-11-02",
+    "outage_reason": "Certificate validation failure",
+    "impact_summary": "B2B communication with some external systems is affected due to a certificate validation failure.",
+    "filename": "OmniCargoSolutions_Outage_20251102_0300.txt",
+    "raw_text": "Subject: Outage Notification – Certificate validation failure\nFrom: OmniCargo Solutions <support@omnicargosolutions.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-11-02 03:00 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Certificate validation failure affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-11-02 03:00 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nOmniCargo Solutions Technical Operations Team\n"
+  },
+  {
+    "partner_name": "TransEdge Logistics",
+    "outage_date": "2025-10-09",
+    "outage_reason": "Power failure",
+    "impact_summary": "Unexpected power failure in the data center affecting B2B communication with external systems.",
+    "filename": "TransEdgeLogistics_Outage_20251009_2216.txt",
+    "raw_text": "Subject: Outage Notification – Unexpected power failure in data center\nFrom: TransEdge Logistics <support@transedgelogistics.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-09 22:16 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Unexpected power failure in data center affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-09 22:16 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nTransEdge Logistics Technical Operations Team\n"
+  },
+  {
+    "partner_name": "TransEdge Logistics",
+    "outage_date": "2025-10-13",
+    "outage_reason": "Firewall issue",
+    "impact_summary": "A firewall is blocking outbound B2B connections, affecting communication with external systems.",
+    "filename": "TransEdgeLogistics_Outage_20251013_2036.txt",
+    "raw_text": "Subject: Outage Notification – Firewall blocking outbound b2b connections\nFrom: TransEdge Logistics <support@transedgelogistics.com>\nTo: B2B Operations <b2bops@yourorg.com>\nDate: 2025-10-13 20:36 IST\n\nDear Partner,\n\nPlease be informed that we are currently experiencing a Firewall blocking outbound B2B connections affecting B2B communication with some of our external systems. Our technical teams are actively investigating the cause.\n\nOutage Start Time: 2025-10-13 20:36 IST\nEstimated Resolution: Under investigation\n\nWe will notify you once services are fully restored.\n\nKind regards,\nTransEdge Logistics Technical Operations Team\n"
+  }
+]

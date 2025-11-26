@@ -1,0 +1,24 @@
+Context : This is related to a Hi-Tech company with a very large, complex and global supply chain. 
+Name of the company is Global Hitec. 
+
+Instruction : Global Hitec has more than 10 logistic partner. Every partner can have unplanned and planned outages, 
+Global Hitec sends a communication to all the internal as well as external stakeholders for every outage.
+Please generate a sample outage summary email. Partner name should  be fictitious
+Outage email should have following fields
+
+Following should be part of the email
+Type of outage : Planned / unplanned
+Details of the issue which vendor is facing (can be network, B2B channels, power outage etc) for unplanned outage
+It can be upgrade , certificate installation etc if it is planned outage
+Current status : Always keep as resolved
+Business impact : Quantitative and qualitative impact 
+For eg Order processing is impacted . Premium(20) , Regular(10). Quantitative impact is optional. 
+For some outages there can be no impact ac well
+Manuel Order Processing : Required / Not Required 
+Root Cause for unplanned outage : Available / Not available 
+Outage Start Time : In PST
+Outage End Time : IN PST
+
+Output : Create a formal email with above instructions . Tone of the mail should be formal
+Create 100 such emails in a zip file. Distribute randomly between planned and unplanned outages
+Count of outages across 10 logistic partners should be random. Outage emails should span a period from 2020 till 2025

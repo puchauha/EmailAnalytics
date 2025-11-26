@@ -1,0 +1,45 @@
+DuckDB SQL Rules Summary for LLM
+
+1. General Syntax
+- Only SELECT queries.
+- No markdown, comments, or semicolons required.
+- Use only functions available in DuckDB.
+
+2. Date & Time Rules
+- Valid: CURRENT_DATE, CURRENT_TIMESTAMP
+- Interval subtraction: CURRENT_DATE - INTERVAL '6' MONTH
+- Truncation: date_trunc('month', email_date)
+- Formatting: strftime(outage_start_time, '%Y-%m-%d %H:%M')
+- Extraction: extract(month FROM email_date)
+- Invalid: DATEADD, DATE_SUB, DATEDIFF, TIMESTAMPADD
+
+3. Timestamp Rules
+- Do not convert timestamps with /1000.
+- Use timestamps directly with strftime().
+
+4. Numeric Functions
+- ROUND, CEIL, FLOOR, ABS, POWER.
+
+5. String Functions
+- LOWER, UPPER, LENGTH, SUBSTR, CONCAT, REPLACE.
+
+6. Aggregation Rules
+- Aggregate with COUNT, SUM, AVG, MIN, MAX.
+- All non-aggregated columns must be in GROUP BY.
+
+7. ORDER BY Rules
+- ORDER BY partner_name ASC
+- ORDER BY COUNT(*) DESC
+
+8. Filtering
+- WHERE duration_hours > 1
+- WHERE partner_name ILIKE '%global%'
+- Date ranges: WHERE email_date BETWEEN '2024-01-01' AND '2024-12-31'
+
+9. Nonexistent Functions (Avoid)
+- DATEADD, DATE_SUB, DATEDIFF, TIMESTAMPADD
+- FORMAT_DATETIME, MONTHNAME, YEARWEEK, DAYOFWEEK
+
+10. Output Rules
+- Return only SQL.
+- No explanations.

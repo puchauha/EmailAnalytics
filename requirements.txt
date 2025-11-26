@@ -1,0 +1,25 @@
+# Core AI + LangChain
+langchain
+langchain-openai
+langchain-community
+langchain.tools
+langgraph.prebuilt
+langgraph
+
+
+# Data handling
+pandas
+duckdb
+storage
+processor
+
+# Visualization and Reporting
+matplotlib
+python-pptx
+
+# Web UI
+streamlit
+
+#environment variables
+dotenv
+openpyxl

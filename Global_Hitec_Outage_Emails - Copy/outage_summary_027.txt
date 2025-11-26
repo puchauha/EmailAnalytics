@@ -1,0 +1,19 @@
+Subject: Outage Summary - SwiftHaul (Unplanned) - 2020-03-24
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **SwiftHaul**.
+
+**Type of Outage:** Unplanned  
+**Details of the Issue:** Network connectivity issue  
+**Current Status:** Resolved  
+**Business Impact:** No business impact observed.  
+**Manual Order Processing:** Required  
+**Root Cause (for unplanned outage):** Not Available  
+**Outage Start Time:** 2020-03-24 10:29 PST  
+**Outage End Time:** 2020-03-24 14:29 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

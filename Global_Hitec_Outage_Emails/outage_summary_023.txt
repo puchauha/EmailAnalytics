@@ -1,0 +1,19 @@
+Subject: Outage Summary - MegaTrans Global (Planned) - 2025-07-23
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **MegaTrans Global**.
+
+**Type of Outage:** Planned  
+**Details of the Issue:** System upgrade  
+**Current Status:** Resolved  
+**Business Impact:** No business impact observed.  
+**Manual Order Processing:** Required  
+**Root Cause (for unplanned outage):** Not Applicable  
+**Outage Start Time:** 2025-07-23 00:57 PST  
+**Outage End Time:** 2025-07-23 01:57 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team

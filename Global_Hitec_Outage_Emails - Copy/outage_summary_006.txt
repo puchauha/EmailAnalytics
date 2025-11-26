@@ -1,0 +1,19 @@
+Subject: Outage Summary - NextMove Transport (Planned) - 2022-10-04
+
+Dear Stakeholders,
+
+Please find below the summary for the recent outage reported by our logistics partner **NextMove Transport**.
+
+**Type of Outage:** Planned  
+**Details of the Issue:** Scheduled hardware refresh  
+**Current Status:** Resolved  
+**Business Impact:** Minor impact on order confirmations.  
+**Manual Order Processing:** Not Required  
+**Root Cause (for unplanned outage):** Not Applicable  
+**Outage Start Time:** 2022-10-04 05:35 PST  
+**Outage End Time:** 2022-10-04 06:35 PST  
+
+We appreciate your understanding and support while our partner worked on restoring their services.
+
+Best Regards,  
+Global Hitec Supply Chain Operations Team
