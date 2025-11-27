@@ -625,10 +625,10 @@ for role, content in st.session_state.history:
             elif content.get("type") == "table":
                 st.dataframe(content["rows"], use_container_width=True)
 
-            elif content.get("type") in ["text", "text_value", "friendly_error"]:
+            elif content.get("type") in ["text", "text_value"]:
                 st.write(content.get("text") or content.get("value"))
 
-            elif content.get("type") == "executive_summary":
+            elif content.get("type") == "executive_summary":    
                 st.subheader("📌 Executive Summary")
                 st.write(content["summary_text"])
                 if "rows" in content:
@@ -676,6 +676,9 @@ if query:
                 st.dataframe(clean_result["rows"], use_container_width=True)
             if "image_base64" in clean_result:
                 st.image(base64.b64decode(clean_result["image_base64"]), caption="Summary Chart")
+
+        elif clean_result["type"] == "friendly_error":
+            st.error(clean_result["message"])       
 
         else:
             st.write("ℹ️ No usable output returned.")
