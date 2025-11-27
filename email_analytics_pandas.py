@@ -468,6 +468,8 @@ def execute_pandas_node(state: AgentState) -> dict:
     code = state.get("pandas_code", "")
     
     # 🔍 1. Validate query BEFORE execution
+    print("🧐 Validating user query before execution...")
+    print("User query:", user_query)
     if not is_valid_query(user_query):
         return {
             "result": {
@@ -623,7 +625,7 @@ for role, content in st.session_state.history:
             elif content.get("type") == "table":
                 st.dataframe(content["rows"], use_container_width=True)
 
-            elif content.get("type") in ["text", "text_value"]:
+            elif content.get("type") in ["text", "text_value", "friendly_error"]:
                 st.write(content.get("text") or content.get("value"))
 
             elif content.get("type") == "executive_summary":
