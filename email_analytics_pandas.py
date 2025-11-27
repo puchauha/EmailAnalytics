@@ -139,7 +139,46 @@ AGGREGATION RULES FOR PARTNER-LEVEL OUTPUT:
     - Only use DataFrames if user requests multiple rows of results.
 
 
+HEATMAP RULE (STRICT AND NON-NEGOTIABLE):
 
+- If the user mentions "heatmap", the output MUST be a heatmap.
+- DO NOT generate bar charts, pie charts, line charts, or tables.
+- ONLY generate a heatmap using matplotlib + pivot_table.
+
+Fuzzy Partner Matching — STRICT RULE:
+- NEVER perform exact equality matching like df[df["partner_name"] == "x"].
+- ALWAYS use `.str.contains(term, case=False, na=False)` for matching.
+- ALWAYS use `~ .str.contains()` for exclusions.
+
+This overrides ALL other filtering rules.
+
+PARTNER FILTERING RULE FOR HEATMAP:
+- Use fuzzy partial matching for includes:
+      df[df["partner_name"].str.contains(<term>, case=False, na=False)]
+- Use fuzzy partial matching for exclusions:
+      df[~df["partner_name"].str.contains(<term>, case=False, na=False)]
+
+This rule overrides all other chart generation logic.
+
+
+PARTNER NAME MATCHING RULE:
+- Partner filters must use partial, case-insensitive matching:
+  
+      df[df["partner_name"].str.contains(<pattern>, case=False, na=False)]
+
+- Never use equality like:
+      df[df["partner_name"] == "ExpressLine"]
+
+- For exclusions:
+
+      df[~df["partner_name"].str.contains(<pattern>, case=False, na=False)]
+
+- If the query contains any mention of a partner name (full or partial), extract it and apply fuzzy matching.
+
+- This ensures user typos, short forms, and partial names still return valid results.
+
+        
+    
     OUTPUT RULES:
     If user asks for counts, unique values, lists → assign to `result` (list/dict/DataFrame).
     If user asks a chart:
@@ -187,6 +226,25 @@ AGGREGATION RULES FOR PARTNER-LEVEL OUTPUT:
     - Return ONLY the code. No markdown. No explanation.
 
     """
+
+# %%
+def is_valid_query(user_query: str) -> bool:
+    """LLM classifies whether the query is meaningful or garbage."""
+    check_prompt = f"""
+You are a query classifier for an outage analytics assistant.
+User query: "{user_query}"
+
+Decide ONLY:
+- "valid" → if query relates to outages, trends, charts, partners, issues, downtime, etc.
+- "invalid" → if it is nonsense, random words, or unprocessable.
+
+Answer only one word: valid or invalid.
+"""
+    print("📝 Validating user query...")
+    print("Prompt:", check_prompt)
+    result = llm.invoke(check_prompt).content.strip().lower()
+    return result == "valid"
+
 
 # %%
 # ------------------------------------------------------------
@@ -280,7 +338,8 @@ def execute_pandas_code(df: pd.DataFrame, code: str):
         cleaned_lines.append(line)
     cleaned_code = "\n".join(cleaned_lines)
 
-    print("\n📌 Running Pandas code:\n", cleaned_code)
+    print("\n📌 Running Pandas code:######\n", cleaned_code)
+    
 
     # ---------- 4. Execute the LLM-generated code ----------
     try:
@@ -288,12 +347,14 @@ def execute_pandas_code(df: pd.DataFrame, code: str):
     except Exception as e:
         print("❌ Pandas execution error:", e)
         print(traceback.format_exc())
+        # Return user-friendly error for UI
         return {
-            "type": "error",
-            "error_message": str(e),
-            "trace": traceback.format_exc(),
-            "failed_code": cleaned_code,
-        }
+        "type": "friendly_error",
+        "message": (
+            "I apologize — I couldn't understand your query. "
+            "Please rephrase, break, or simplify it for better results."
+            )
+          }
 
     # ---------- 5. Inspect outputs in priority order ----------
 
@@ -399,10 +460,26 @@ def generate_pandas_code(state: AgentState) -> dict:
 # %%
 # ------------------------------------------------------------
 # Node: Wrap execute_pandas_code for LangGraph
-# ------------------------------------------------------------
+# -----------------------------------------------------------
 def execute_pandas_node(state: AgentState) -> dict:
     """Node 2: takes the generated code and runs it against df_outages."""
+    
+    user_query = state.get("user_query", "")
     code = state.get("pandas_code", "")
+    
+    # 🔍 1. Validate query BEFORE execution
+    if not is_valid_query(user_query):
+        return {
+            "result": {
+                "type": "friendly_error",
+                "message": (
+                    "I apologize — I couldn't understand your query. "
+                    "Please rephrase, break, or simplify it."
+                )
+            }
+        }
+
+    # ❗ Continue normally if valid
     if not code:
         return {
             "result": {
@@ -413,6 +490,7 @@ def execute_pandas_node(state: AgentState) -> dict:
 
     result = execute_pandas_code(df_outages, code)
     return {"result": result}
+
 
 # %%
 def generate_executive_summary(state: AgentState):
@@ -460,8 +538,66 @@ import streamlit as st
 import base64
 import pandas as pd
 
-st.set_page_config(page_title="📊 Outage Analytics Assistant", layout="wide")
-st.title("📊 Outage Analytics Assistant")
+st.set_page_config(page_title="📊 Partner Outage Analytics Assistant", layout="wide")
+st.title("📊 Partner Outage Analytics Assistant")
+
+st.markdown("""
+### 📘 How to Use the Partner Outage Analytics Assistant
+
+Ask questions in **plain English** — the system automatically understands, analyzes, 
+and generates results using **Pandas + AI reasoning**.
+
+You can request:
+- 📊 **Charts** — bar, line, pie, heatmap, trends  
+- 📋 **Tables** — outage counts, partner summaries, unique issues, etc.  
+- 🧮 **KPIs** — totals, averages, maximums, comparisons  
+- 📝 **Executive summaries** *(only if explicitly mentioned)*  
+
+The assistant automatically:
+- Converts dates & data types  
+- Aggregates results correctly  
+- Picks the right visual or table format  
+- Avoids long text fields in aggregated tables  
+- Handles partial partner name matches  
+- Generates compact, professional charts  
+
+---
+
+### 🧠 Example Queries
+
+#### 📌 Outage Insights  
+- *“Show total outages per year”*  
+- *“Outage trend for last 6 months”*  
+- *“List all unique issues for 2025”*  
+- *“Top 3 partners by downtime”*  
+
+#### 📌 Partner-Specific  
+- *“Outage summary for MegaTrans Global for last 3 years”*  
+- *“Issues and business impacts for ExpressLine”*  
+- *“Total downtime for BlueRoute in 2024”*  
+
+#### 📌 Charts  
+- *“Create a bar graph of outages per partner”*  
+- *“Heatmap of outages by partner and issue type”*  
+- *“Pie chart of outage types for 2025”*  
+
+#### 📌 Advanced Filtering  
+- *“Show outages excluding ExpressLine”*  
+- *“Heatmap of outages for all partners except BlueRoute”*  
+- *“Trend of critical outages only”*  
+
+#### 📝 Executive Summary (must be explicit)  
+- *“Give executive summary for partner outages in 2024”*  
+- *“Executive summary of last 3 months outages with insights”*  
+
+---
+
+### ✔️ Tip  
+If you do NOT specify “executive summary,” the system returns  
+a **table** or **chart** based on your query.
+
+""")
+
 
 @st.cache_data
 def load_df():
@@ -470,7 +606,7 @@ def load_df():
 df_outages = load_df()
 agent = build_outage_agent_graph()
 
-st.sidebar.write(f"Dataset rows: {len(df_outages)}")
+#st.sidebar.write(f"Dataset rows: {len(df_outages)}")
 
 query = st.chat_input("Ask a question about outages…")
 
