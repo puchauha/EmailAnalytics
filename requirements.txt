@@ -23,3 +23,5 @@ streamlit
 #environment variables
 dotenv
 openpyxl
+
+# Computer Vision
